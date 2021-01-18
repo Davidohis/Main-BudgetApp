@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App"><h1>budgetApp</h1></div>
-  );
-}
+const App: React.FC = () => (
+  <>
+   <h1>BudgetApp</h1>
+  </>
+);
 
 export default App;
